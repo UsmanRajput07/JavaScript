@@ -23,19 +23,6 @@ score0Ele.textContent = 0;
 score1Ele.textContent = 0;
 discEle.classList.add("hidden");
 
-btnReset.addEventListener("click", () => {
-  document
-    .querySelector(`.player--${activeplayer}`)
-    .classList.remove("player--winner");
-  document
-    .querySelector(`.player--${activeplayer}`)
-    .classList.add("player--active");
-  score0Ele.textContent = 0;
-  score1Ele.textContent = 0;
-  document.getElementById(`current--${activeplayer}`).textContent= 0
-  currentscore = 0
-  playing = true
-});
 
 const Player_Change = () => {
   document.getElementById(`current--${activeplayer}`).textContent = 0;
@@ -81,3 +68,18 @@ btnhold.addEventListener("click", () => {
     }
   }
 });
+btnReset.addEventListener("click", () => {
+  document
+    .querySelector(`.player--${activeplayer}`)
+    .classList.remove("player--winner");
+  document
+    .querySelector(`.player--${activeplayer}`)
+    .classList.add("player--active");
+  score0Ele.textContent = 0;
+  score1Ele.textContent = 0;
+  document.getElementById(`current--${activeplayer}`).textContent= 0
+  currentscore = 0
+  playing = true
+  scores = [0, 0];
+});
+
