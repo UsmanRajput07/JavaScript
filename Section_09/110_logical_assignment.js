@@ -11,10 +11,14 @@ const rest2 = {
 //  OR Assignment opertor
 // rest1.numguest = rest1.numguest || 10;
 // rest2.numguest = rest2.numguest || 10;
-// rest1.numguest ||= 10;
-// rest2.numguest ||=10
+// console.log(rest1.numguest ||= 10);
+// console.log(rest2.numguest ||=10)
+// console.log(rest1.numguest = rest1.numguest || 10)
+// console.log(rest2.numguest = rest2.numguest || 10)
+
 
 // nullish assignment operator (null or undefine )
+
 rest1.numguest ??=30
 rest2.numguest ??=30
 

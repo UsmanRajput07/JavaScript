@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+    <button>Click</button>
+</body>
+<script>
+    document.querySelector("button").addEventListener("click", function () {
+        const row = document.getElementById("textarea").value
+        const text = row.split("\n");
+        for (const [i, names] of text.entries()) {
+            const [first, second] = names.toLowerCase().trim().split("_");
+            const output = `${first}${second.replace(second[0], second[0].toUpperCase())}`
+            console.log(`${output.padEnd(20)}${`☑️`.repeat(i + 1)}`)
+        }
+    })
+</script>
+
+</html>

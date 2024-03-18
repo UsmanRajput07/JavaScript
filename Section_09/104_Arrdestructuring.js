@@ -15,7 +15,7 @@ const resturent = {
 // const [a,b,c] = arr
 // console.log(a,b,c)
 
-let [first, , second] = resturent.categories;
+let [first,second] = resturent.categories;
 console.log(first, second);
 
 // switching variable;
@@ -31,15 +31,16 @@ console.log(first, second)
 // console.log(first, second);
 
 // recieve 2 value from a function
-/*
-const [starter, main] = resturent.order(2, 0)
-console.log(starter, main)
-*/
 
-const nested = [2,3,[4,6]];
-const [a,,[b,i]] = nested
-console.log(a,b,i)
+// const [starter, main] = resturent.order(3, 2)
+// console.log(starter, main)
+
+
+// const nested = [2,3,[4,6]];
+
+// const [a,,[b,i]] = nested
+// console.log(a,b,i)
 
 // deafault values
 const [x=1,y=1,z=1] = [6,4];
-console.log(x,y,z) 
+// console.log(x,y,z) 

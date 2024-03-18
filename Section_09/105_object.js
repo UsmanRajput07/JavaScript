@@ -24,8 +24,8 @@ const resturent = {
   },
 };
 
-//   const {name:resturentName,openingHour:hour, menu=[] } = resturent;
-//   console.log(resturentName,hour, menu)
+  // const {name:resturentName,openingHour:hour, menu=[] } = resturent;
+  // console.log(resturentName,hour, menu)
 
 //  Given default value
 
@@ -33,17 +33,17 @@ const resturent = {
 // console.log(menu, starter)
 
 //mutating variables
-/*
-let a = 111, b = 888;
-const obj = {a:10, b:20, c:4};
-({a,b} = obj)
-console.log(a,b)
-*/
+
+// let a = 111, b = 888;
+// const obj = {a:10, b:20, c:4};
+// ({a,b} = obj)
+// console.log(a,b)
+
 
 // Nested Object
 
-// const {fri:{open, close}} = resturent.openingHour
-// console.log(open,close)
+const {fri:{open, close}} = resturent.openingHour
+console.log(open,close)
 
 resturent.OderDelevery({
   starterIndex: 2,

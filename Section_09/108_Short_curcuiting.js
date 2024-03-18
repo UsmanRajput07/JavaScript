@@ -13,9 +13,10 @@ const resturent ={
 
 resturent.cat = 3
 
-// const returnvalue = resturent.cat ? resturent.cat : 10;
+const returnvalue = resturent.cat ? resturent.cat : 10;
 
-// console.log(returnvalue)
+console.log(returnvalue)
+//  alternative of turnary oprerator
 const value = resturent.cat || 33
 
 console.log(value)

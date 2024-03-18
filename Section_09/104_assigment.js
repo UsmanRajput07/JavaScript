@@ -226,7 +226,7 @@ const books = [
 // console.log(firstbook,secondbook)
 
 // skip fist two arry
-// const [,,,thirdBook] = books
+const [,,thirdBook] = books
 
 // console.log(thirdBook)
 
