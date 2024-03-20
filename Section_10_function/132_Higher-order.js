@@ -6,7 +6,7 @@ const UpperFirstWord = function(str){
     return [first.toUpperCase(), ...other].join(" ");
 }
 
-// Higher Order function 
+// Higher Order function
 const tranform = function(str, fn){
     console.log(`Original String:${str}`)
     console.log(`Transformed string: ${fn(str)}`)
@@ -14,3 +14,4 @@ const tranform = function(str, fn){
 }
 tranform("JavaScript is the best !", UpperFirstWord)
 tranform("JavaScript is the best !", oneWord)
+

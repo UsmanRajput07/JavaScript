@@ -1,0 +1,7 @@
+const movements =  [200, 450, -400, 3000, -650, -130, 70, 1300];
+
+const Deposit = movements.filter((cv)=> cv>0)
+const withdrawal = movements.filter((cv)=> cv<0)
+console.log(Deposit,"\n", withdrawal)
+
+   

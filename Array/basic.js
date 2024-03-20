@@ -1,6 +1,6 @@
 // basic array
 
-const friends = ["sahil", "aniket", "nitien"];
+const friends = ["sahil", "aniket", "nitin"];
 
 // another method to declare arrr
 
