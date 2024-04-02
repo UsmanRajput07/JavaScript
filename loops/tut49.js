@@ -1,10 +1,10 @@
 //  while loop 
 
-// let rep = 1;
-// while(rep<=10){
-//     console.log(`lifting weight repition ${rep}`)
-//     rep++
-// }
+let rep = 0;
+while(rep<=10){
+    console.log(`lifting weight repition ${rep}`)
+    rep++
+}
 
 let disc = Math.trunc(Math.random() *6)+1;
 while(disc !== 6){
@@ -12,3 +12,4 @@ while(disc !== 6){
     disc = Math.trunc(Math.random() *6)+1
     if(disc === 6) console.log(`you got ${disc} `)
 }
+

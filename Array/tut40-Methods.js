@@ -31,3 +31,4 @@ console.log(names.indexOf("Raja"))
 console.log(names.includes("Aniket"))
 console.log(names.includes("Sahil"))
 console.log(names.includes("jhon"))
+

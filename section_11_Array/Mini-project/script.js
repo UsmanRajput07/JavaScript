@@ -130,6 +130,7 @@ const FormtedCur = function (value, local, currency) {
 
 //  implement logout timer
 const startLogoutTimer = function () {
+  let time = 120;
   const tick = () => {
     const min = String(Math.trunc(time / 60)).padStart(2, 0);
     const sec = String(time % 60).padStart(2, 0);
@@ -141,8 +142,6 @@ const startLogoutTimer = function () {
     }
     time--;
   };
-
-  let time = 120;
 
   const timer = setInterval(tick, 1000);
   return timer;
@@ -235,7 +234,7 @@ btnLogin.addEventListener("click", (e) => {
 
     //  logouttimer
 
-    if(timer) clearInterval(timer)
+    if (timer) clearInterval(timer);
     timer = startLogoutTimer();
 
     // UpdateUI

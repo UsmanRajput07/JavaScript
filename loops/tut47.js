@@ -2,18 +2,18 @@ const john = ["jonas", "Schemeth", 2023-2002, "teacher", ["sahil", "aniket", "Sh
 
 const types =[]
 
-// for(let i=0; i<john.length; i++){
-//     // console.log(john[i])
+for(let i=0; i<john.length; i++){
+    // console.log(john[i])
    
-//     // filling the types of john in types array 
+    // filling the types of john in types array 
 
-//     // types[i] = typeof john[i]
+    // types[i] = typeof john[i]
 
-//     // another way
-//     types.push(typeof john[i])
+    // another way
+    types.push(typeof john[i])
 
-// }
-// console.log(types)
+}
+console.log(types)
 
 
 // const years =[2002, 2000, 2001, 2004, 2007];
@@ -30,8 +30,9 @@ for(let i=0; i<john.length; i++){
     console.log(john[i], typeof john[i])
 }
 
-console.log("<-------------only Number------->")
+// console.log("<-------------only Number------->")
 for(let i=0; i<john.length; i++){
     if(typeof john[i] === "number") break;
     console.log(john[i], typeof john[i])
 }
+
