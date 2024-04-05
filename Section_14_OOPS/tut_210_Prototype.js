@@ -30,4 +30,4 @@ console.log(person.prototype.isPrototypeOf(person))
 console.log(aniket.hasOwnProperty("name"))
 console.log(aniket.hasOwnProperty("birh"))
 
-// console.log(person.prototype.constructor);
+console.log(person.prototype.constructor);

@@ -11,6 +11,7 @@ const person = function(name, birthyear){
 // 2 function is called , this = {}
 // 3 {} linked to prototype
 // 4 function automatically return {}
+console.log(person)
 
 const sahil = new person("sahil", 2001)
 const aniket = new person("aniket", 2003)

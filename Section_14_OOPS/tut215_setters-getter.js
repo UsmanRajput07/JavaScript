@@ -27,7 +27,7 @@ class PerconCl {
   greet() {
     console.log(`hey ${this.firstname}`);
   }
-  //     set a property that already exists
+  //     property that already exists in constructor
   set firstname(name) {
     if (name.includes(' ')) this._firstname = name;
     else alert(`${name} is not a full name`);

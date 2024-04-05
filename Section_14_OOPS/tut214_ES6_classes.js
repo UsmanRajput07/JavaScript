@@ -18,7 +18,7 @@ class PerconCl {
   }
 }
 const jassica = new PerconCl("jessica", 2000);
-console.log(jassica);
+console.log(jassica.__proto__);
 jassica.CalcAge();
 
 //  we can
